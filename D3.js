@@ -1,3 +1,5 @@
+const { xml } = require("d3-fetch");
+
 /* ESERCIZIO 1
  Scrivi un algoritmo per trovare il più grande tra due numeri interi.
 */
@@ -122,18 +124,32 @@ if(numerolos %2 ===0){
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-/* ESERCIZIO 10
-  Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
-  let val = 7
-  if (val < 10) {
-      console.log("Meno di 10");
-    } else if (val < 5) {
+ //ESERCIZIO 10
+  //Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
+  let val = 11;
+   if (val < 5) {
       console.log("Meno di 5");
-    } else {
+    } else if (val < 10) {
+      console.log("Meno di 10");
+    } else { 
       console.log("Uguale a 10 o maggiore");
     }
-*/
 
+    let vall = 4;
+    if(vall<5) { 
+      let name1= "Scarafaggio";
+      console.log("Meno di 5");
+      console.log(name1)
+    }
+    //
+    if(vall<10) {
+      console.log("Meno di 10");
+      
+    }else {
+      console.log("Wmilan")
+    }
+    console.log("Wjuvemerda")
+      
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 11
